@@ -1,8 +1,26 @@
+{
+  "message": "Hello World from Transformation1",
+  "concatenatedMessage": "Hello World",
+  "distinctItems": ["apple", "orange", "banana"],
+  "containsApple": true,
+  "employeeDetails": {
+    "employeeList": [
+      {
+        "employeeId": 1,
+        "fullName": "John Doe",
+        "team": "Finance"
+      },
+      {
+        "employeeId": 2,
+        "fullName": "Jane Smith",
+        "team": "Marketing"
+      },
+      {
+        "employeeId": 3,
+        "fullName": "Bob Johnson",
+        "team": "Engineering"
+      }
+    ]
+  }
+}
 
-[
-  { id: 1, name: "Alice" },
-  { id: 2, name: "Bob" },
-  { id: 1, name: "Alice" }
-]
-
-["cat", "dog", "bird"] 
