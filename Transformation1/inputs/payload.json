@@ -3,6 +3,6 @@
   { id: 1, name: "Alice" },
   { id: 2, name: "Bob" },
   { id: 1, name: "Alice" }
-] distinctBy $.id
+]
 
-["cat", "dog", "bird"] contains "dog"
+["cat", "dog", "bird"] 
