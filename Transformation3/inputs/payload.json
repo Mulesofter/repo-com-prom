@@ -1,39 +1,11 @@
 
-
 {
-  "employees": [
-    {
-      "id": 1,
-      "name": "John Doe",
-      "department": "Finance"
-    },
-    {
-      "id": 2,
-      "name": "Jane Smith",
-      "department": "Marketing"
-    },
-    {
-      "id": 3,
-      "name": "Bob Johnson",
-      "department": "Engineering"
-    }
-  ]
-}
-
-
-
-
-%dw 2.0
-output application/json
----
-{
-  employeeDetails: payload.employees map ((employee) -> {
-    employeeId: employee.id,
-    fullName: employee.name,
-    team: employee.department
-  })
-}
- {
+  "upperMessage": "HELLO WORLD FROM TRANSFORMATION3",
+  "currentDate": "2025-01-02T12:34:56Z",
+  "removedFields": {
+    "a": 1,
+    "c": 3
+  },
   "employeeDetails": [
     {
       "employeeId": 1,
@@ -52,3 +24,4 @@ output application/json
     }
   ]
 }
+
